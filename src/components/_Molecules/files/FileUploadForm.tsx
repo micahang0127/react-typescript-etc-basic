@@ -1,3 +1,6 @@
+export default function File() {
+  return <div></div>;
+}
 // import { axiosDefaultInstance } from 'apis';
 // import { useState } from 'react';
 
