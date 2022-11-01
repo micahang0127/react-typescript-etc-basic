@@ -4,7 +4,6 @@ import { LayoutDefaultProps } from "../../types";
 import Header from "./Header";
 import Footer from "./Footer";
 
-// const Layout = (props: { children: React.ReactNode }) => {
 const Layout = ({ children }: LayoutDefaultProps) => {
   return (
     <div>
