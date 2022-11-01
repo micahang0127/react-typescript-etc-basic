@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import SignIn from "../pages/SignIn2";
+import Error404 from "../pages/Error404";
 
 export default function Router() {
   return (
@@ -43,7 +44,7 @@ export default function Router() {
         </Route> */}
 
         {/* 인증/권한 여부와 상관 없이 접근 가능한 Error 페이지 */}
-        {/* <Route path="/*" element={<Error404 />} /> */}
+        <Route path="/*" element={<Error404 />} />
       </Routes>
     </BrowserRouter>
   );
