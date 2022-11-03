@@ -5,6 +5,8 @@ react, typescirpt, 전체 폴더구조, MUI, redux 등 전체 코드 정리
 ### 사용
 
 - react-router v6
+- axios 1.1.3
+- apollo-boost graphql react-apollo
 
 ### forder structure + Atomic Design
 
@@ -71,6 +73,15 @@ react, typescirpt, 전체 폴더구조, MUI, redux 등 전체 코드 정리
     $ npm i @mui/icons-material
    ```
 
+4. graphQL
+   apollo-boost는 Apollo Client 설치에 필요한 모든 패키지를 포함하고 있다.
+   @apollo/react-hooks GraphQL을 Hook처럼 사용 가능하게 해주는 역할.
+   graphql은 Facebook에서 만든 API용 쿼리 언어인 GraphQL에 대한 JavaScript 참조 구현.
+
+   ```
+   $ npm i apollo-boost @apollo/react-hooks graphql
+   ```
+
 ### 404 page
 
 ```javascript
@@ -92,3 +103,7 @@ react, typescirpt, 전체 폴더구조, MUI, redux 등 전체 코드 정리
 - type VS interface
   interface: 클래스 같이 상속이 일어날 수 있는 부분.
   type: 매개 변수 스펙 등과 같이 형태를 표현 하는 부분.
+
+<br><br>
+[참고] <br>
+https://github.com/anonymous-planets/planet-blog-react
