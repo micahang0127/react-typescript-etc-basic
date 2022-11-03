@@ -76,7 +76,7 @@ react, typescirpt, 전체 폴더구조, MUI, redux 등 전체 코드 정리
 4. graphQL
    apollo-boost는 Apollo Client 설치에 필요한 모든 패키지를 포함하고 있다.
    @apollo/react-hooks GraphQL을 Hook처럼 사용 가능하게 해주는 역할.
-   graphql은 Facebook에서 만든 API용 쿼리 언어인 GraphQL에 대한 JavaScript 참조 구현.
+   graphql은 Facebook에서 만든 API용 쿼리 언어인 GraphQL에 대한 JavaScript 참조 구현(Reference implementation, 다른 사람들이 구현하는 것을 돕기위해 제공하는 샘플 프로그램)
 
    ```
    $ npm i apollo-boost @apollo/react-hooks graphql
